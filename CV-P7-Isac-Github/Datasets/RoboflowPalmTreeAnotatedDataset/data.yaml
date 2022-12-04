@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Palm-Trees']
+
+roboflow:
+  workspace: vcp7
+  project: palm-tree-detection-0we3t
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/vcp7/palm-tree-detection-0we3t/dataset/1
